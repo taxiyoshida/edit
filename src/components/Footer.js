@@ -58,6 +58,18 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
+        <small>
+        developed by 
+        <a
+          href="https://twitter.com/taxiyoshida"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Takushi Yoshida(@taxiyoshida),
+        </a>
+        </small>
+        <small>
+        based on 
         <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
           target="_blank"
@@ -73,6 +85,7 @@ const Footer = () => (
         >
           @ryanwiemer
         </a>
+        </small>
       </Item>
     </List>
   </Wrapper>
