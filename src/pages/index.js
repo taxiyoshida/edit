@@ -14,27 +14,12 @@ const Index = ({ data }) => {
       <Container>
         <PageTitle small>
           <a
-            href="https://www.gatsbyjs.org/"
+            href="https://axion.zone/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Gatsby
-          </a>,{' '}
-          <a
-            href="https://www.contentful.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contentful
-          </a>{' '}
-          and{' '}
-          <a
-            href="https://www.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Netlify
-          </a>{' '}
+            new axion.zone alpha
+          </a>
           <span>🎉</span>
         </PageTitle>
         <CardList>
