@@ -9,6 +9,7 @@ const Body = styled.div`
   h1,
   h2,
   h3 {
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 600;
     line-height: 1.25;
     margin: 0 0 1rem 0;
@@ -22,10 +23,12 @@ const Body = styled.div`
     font-size: 1.25em;
   }
   h3 {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 
   p {
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color: #333
     line-height: 1.6;
     margin: 0 0 2em 0;
   }
@@ -84,7 +87,7 @@ const Body = styled.div`
   blockquote {
     font-style: italic;
     border-left: 4px solid ${props => props.theme.colors.secondary};
-    padding: 0 0 0 0.5em;
+    padding: 0 0 0 0.7em;
   }
 
   pre {
