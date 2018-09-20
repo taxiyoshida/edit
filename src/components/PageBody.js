@@ -11,7 +11,7 @@ const Body = styled.div`
   h3 {
     font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.75;
     margin: 0 0 1rem 0;
     text-transform: capitalize;
   }
@@ -29,7 +29,9 @@ const Body = styled.div`
   p {
     font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #333
-    line-height: 1.6;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    line-height: 1.75;
     margin: 0 0 2em 0;
   }
 
@@ -60,9 +62,9 @@ const Body = styled.div`
     li {
       list-style: disc;
       list-style-position: inside;
-      line-height: 1.25;
+      line-height: 1.75;
       &:last-child {
-        margin: 0;
+        margin: 0 0 2em 0;
       }
     }
   }
@@ -71,9 +73,9 @@ const Body = styled.div`
     li {
       list-style: decimal;
       list-style-position: inside;
-      line-height: 1.25;
+      line-height: 1.75;
       &:last-child {
-        margin: 0;
+        margin: 0 0 2em 0;
       }
     }
   }
@@ -87,7 +89,7 @@ const Body = styled.div`
   blockquote {
     font-style: italic;
     border-left: 4px solid ${props => props.theme.colors.secondary};
-    padding: 0 0 0 0.7em;
+    padding: 0 0 2em 0;
   }
 
   pre {
