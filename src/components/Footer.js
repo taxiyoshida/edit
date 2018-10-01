@@ -65,7 +65,7 @@ const Footer = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-        Takushi Yoshida(@taxiyoshida),
+          Takushi Yoshida(@taxiyoshida),
         </a>
         </small>
         <small>
