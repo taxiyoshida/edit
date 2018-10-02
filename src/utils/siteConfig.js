@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: 'axion.zone',
-  siteTitleAlt: 'Knowledge for Next Humanity', // This allows an alternative site title for SEO schema.
+  siteTitleAlt: 'Knowledge for Progressive Humanity', // This allows an alternative site title for SEO schema.
   publisher: 'Takushi Yoshida', // Organization name used for SEO schema
   siteDescription:
     'Tech Business news and analytics you need to get for evolving yoursef to next human',
-  siteUrl: 'https://gcn.netlify.com', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
+  siteUrl: 'https://axion.zone/', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   author: 'Takushi Yoshida', // Author for RSS author segment and SEO schema
-  authorUrl: 'https://gcn.netlify.com/about/', // URL used for author and publisher schema, can be a social profile or other personal site
+  authorUrl: 'https://taxiyoshida.net/', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@taxiyoshida', // Change for Twitter Cards
   shortTitle: 'axion.zone', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/share.jpg', // Open Graph Default Share Image. 1200x1200 is recommended

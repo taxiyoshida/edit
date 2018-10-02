@@ -12,7 +12,7 @@ const Index = ({ data }) => {
     <div>
       <SEO />
       <Container>
-        <img　src="logo_header.png">
+        <img　src="/logos/logo_header.png">
         <PageTitle small>
           new axion.zone α
           <span>🎉</span>
