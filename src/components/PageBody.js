@@ -90,7 +90,7 @@ const Body = styled.div`
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 40px;
     padding-left: 15px;
     border-left: 3px solid ${props => props.theme.colors.secondary};
   }

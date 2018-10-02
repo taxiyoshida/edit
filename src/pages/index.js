@@ -15,9 +15,7 @@ const Index = ({ data }) => {
         <PageTitle small>
           new axion.zone alpha
           <span>🎉</span>
-        </PageTitle>
-        <p>
-          <small> Former site is
+          Former site is
            <a
             href="https://axion.zone/"
             target="_blank"
@@ -25,8 +23,7 @@ const Index = ({ data }) => {
            >
          here
           </a>
-        </small>
-        </p>
+          </PageTitle>
         <CardList>
           {posts.map(({ node: post }) => (
             <Card

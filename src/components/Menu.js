@@ -29,6 +29,7 @@ const Nav = styled.nav`
   }
 
   a {
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     text-decoration: none;
     color: DarkGray;
     font-weight: 600;
@@ -67,6 +68,7 @@ const Menu = () => {
         </ul>
       </Nav>
     </Header>
+    
   )
 }
 
