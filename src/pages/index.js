@@ -12,18 +12,19 @@ const Index = ({ data }) => {
     <div>
       <SEO />
       <Container>
+        <img　src="logo_header.png">
         <PageTitle small>
-          new axion.zone alpha
+          new axion.zone α
           <span>🎉</span>
           Former site is
            <a
-            href="https://axion.zone/"
+            href="https://axion.blog/"
             target="_blank"
             rel="noopener noreferrer"
            >
          here
           </a>
-          </PageTitle>
+        </PageTitle>
         <CardList>
           {posts.map(({ node: post }) => (
             <Card
