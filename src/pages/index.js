@@ -13,7 +13,7 @@ const Index = ({ data }) => {
       <SEO />
       <Container>
         <PageTitle small>
-          new axion.zone α
+          New axion.zone alpha
           <span>🎉</span>
           Former site is
            <a
@@ -21,7 +21,7 @@ const Index = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
            >
-         here
+           here
           </a>
         </PageTitle>
         <CardList>
