@@ -12,7 +12,6 @@ const Index = ({ data }) => {
     <div>
       <SEO />
       <Container>
-        <img　src="/logos/logo_header.png">
         <PageTitle small>
           new axion.zone α
           <span>🎉</span>
