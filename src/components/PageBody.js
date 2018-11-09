@@ -9,11 +9,12 @@ const Body = styled.div`
   h1,
   h2,
   h3 {
-    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     line-height: 1.75;
     margin: 0 0 1rem 0;
-    text-transform: capitalize;
+    text-transform: inherit;
   }
 
   h1 {
@@ -27,7 +28,8 @@ const Body = styled.div`
   }
 
   p {
-    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333
     font-size: 1em;
     letter-spacing: 1.5px;
@@ -63,6 +65,9 @@ const Body = styled.div`
       list-style: disc;
       list-style-position: inside;
       line-height: 1.75;
+      color: #333
+      font-size: 1em;
+      letter-spacing: 1.5px;
       &:last-child {
         margin: 0 0 2em 0;
       }
@@ -74,6 +79,9 @@ const Body = styled.div`
       list-style: decimal;
       list-style-position: inside;
       line-height: 1.75;
+      color: #333
+      font-size: 1em;
+      letter-spacing: 1.5px;
       &:last-child {
         margin: 0 0 2em 0;
       }
@@ -90,9 +98,9 @@ const Body = styled.div`
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 0px;
     padding-left: 15px;
-    border-left: 3px solid ${props => props.theme.colors.secondary};
+    border-left: 4px solid ${props => props.theme.colors.secondary};
   }
 
   pre {

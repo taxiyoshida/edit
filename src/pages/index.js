@@ -15,13 +15,13 @@ const Index = ({ data }) => {
         <PageTitle small>
           New axion.zone alpha
           <span>🎉</span>
-          Former site is
+          ・&nbsp;
            <a
             href="https://axion.blog/"
             target="_blank"
             rel="noopener noreferrer"
            >
-           here
+           Former site
           </a>
         </PageTitle>
         <CardList>
