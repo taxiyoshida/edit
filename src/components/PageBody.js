@@ -9,12 +9,11 @@ const Body = styled.div`
   h1,
   h2,
   h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 600;
     line-height: 1.75;
     margin: 0 0 1rem 0;
-    text-transform: inherit;
+    text-transform: capitalize;
   }
 
   h1 {
@@ -28,8 +27,7 @@ const Body = styled.div`
   }
 
   p {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #333
     font-size: 1em;
     letter-spacing: 1.5px;
@@ -67,7 +65,6 @@ const Body = styled.div`
       line-height: 1.75;
       color: #333
       font-size: 1em;
-      letter-spacing: 1.5px;
       &:last-child {
         margin: 0 0 2em 0;
       }
@@ -81,7 +78,6 @@ const Body = styled.div`
       line-height: 1.75;
       color: #333
       font-size: 1em;
-      letter-spacing: 1.5px;
       &:last-child {
         margin: 0 0 2em 0;
       }

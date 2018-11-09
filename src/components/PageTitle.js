@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Title = styled.h1`
-  font-family: 'Noto Sans JP', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: ${props => (props.small ? '2em' : '3em')};
   text-transform: capitalize;
   font-weight: 600;
