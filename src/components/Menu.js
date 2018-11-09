@@ -29,7 +29,8 @@ const Nav = styled.nav`
   }
 
   a {
-    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: DarkGray;
     font-weight: 600;
