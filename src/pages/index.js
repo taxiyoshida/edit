@@ -13,7 +13,7 @@ const Index = ({ data }) => {
       <SEO />
       <Container>
         <PageTitle small>
-          Finding Fonding Members / 創業メンバー募集中
+          Finding <a href="https://axion.zone/looking-for-founding-member/">Founding Members</a> / 創業メンバー<a href="https://axion.zone/founding-members-japanese/">募集中</a>
         </PageTitle>
         <CardList>
           {posts.map(({ node: post }) => (
