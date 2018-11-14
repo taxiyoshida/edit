@@ -70,7 +70,7 @@ const Menu = () => {
           </li>
         </ul>
         <div>
-            <img src="/static/logos/logo-512.png" alt="axion" height="42" width="42"></img>
+            <Img src="/static/logos/logo_header.png" alt="axion"></Img>
         </div>
       </Nav>
     </Header>

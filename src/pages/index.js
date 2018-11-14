@@ -4,6 +4,7 @@ import Card from '../components/Card'
 import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
+import styled from 'styled-components'
 
 const Button = styled.a`
   /* This renders the buttons above... Edit me! */
@@ -33,7 +34,8 @@ const Index = ({ data }) => {
       <SEO />
       <Container>
         <PageTitle small>
-          Finding <a href="https://axion.zone/looking-for-founding-member/">Founding Members</a> / 創業メンバー<a href="https://axion.zone/founding-members-japanese/">募集中</a>
+          Finding Founding<a href="https://axion.zone/looking-for-founding-member/"> Members</a>
+           / 創業メンバー<a href="https://axion.zone/founding-members-japanese/">募集中</a>
         </PageTitle>
         <Button
           href="https://twitter.com/taxiyoshida?ref_src=twsrc%5Etfw"
