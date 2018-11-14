@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.base};
+  background: linear-gradient(#e66465, #9198e5);
   width: 100%;
   padding: 1.5em 0;
 `
@@ -29,8 +29,7 @@ const Nav = styled.nav`
   }
 
   a {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     text-decoration: none;
     color: DarkGray;
     font-weight: 600;
@@ -56,6 +55,7 @@ const Menu = () => {
               Home
             </Link>
           </li>
+          <img src="/static/logos/logo_header.png" alt="axion" height="42" width="42"></img>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About
