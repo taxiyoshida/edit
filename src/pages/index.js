@@ -5,6 +5,26 @@ import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
 
+const Button = styled.a`
+  /* This renders the buttons above... Edit me! */
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+
+  /* The GitHub button is a primary button
+   * edit this to target it specifically! */
+  ${props => props.primary && css`
+    background: white;
+    color: palevioletred;
+  `}
+`
+
+
 const Index = ({ data }) => {
   const posts = data.allContentfulPost.edges
 
@@ -15,6 +35,33 @@ const Index = ({ data }) => {
         <PageTitle small>
           Finding <a href="https://axion.zone/looking-for-founding-member/">Founding Members</a> / 創業メンバー<a href="https://axion.zone/founding-members-japanese/">募集中</a>
         </PageTitle>
+        <Button
+          href="https://twitter.com/taxiyoshida?ref_src=twsrc%5Etfw"
+          target="_blank"
+          rel="noopener"
+          primary
+        >
+          Twitter
+        </Button>
+        
+        <Button
+          href="https://www.facebook.com/taxi.yoshida"
+          target="_blank"
+          rel="noopener"
+          primary
+        >
+      　　Facebook
+        </Button>
+        
+        <Button
+          href="https://taxiyoshida.net/"
+          target="_blank"
+          rel="noopener"
+          primary
+        >
+      　　Website
+        </Button>
+
         <CardList>
           {posts.map(({ node: post }) => (
             <Card
