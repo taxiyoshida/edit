@@ -12,7 +12,7 @@ const Button = styled.button`
   color: ${props => props.primary ? "white" : "palevioletred"};
 
   font-size: 1em;
-  margin: 1em;
+  margin:0 auto;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
@@ -44,7 +44,7 @@ const Index = ({ data }) => {
           rel="noopener"
           primary
         >
-      　　Facebook
+          Facebook
         </Button>
         
         <Button
@@ -53,7 +53,7 @@ const Index = ({ data }) => {
           rel="noopener"
           primary
         >
-      　　Website
+        Website
         </Button>
 
         <CardList>
