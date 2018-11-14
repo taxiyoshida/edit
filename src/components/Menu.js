@@ -55,9 +55,7 @@ const Menu = () => {
               Home
             </Link>
           </li>
-          <HTMLDivElement>
-            <img src="/static/logos/logo-512.png" alt="axion" height="42" width="42"></img>
-          </HTMLDivElement>
+            <img src="/static/logos/logo-512.png" alt="axion"></img>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About
