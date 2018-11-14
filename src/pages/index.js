@@ -6,18 +6,6 @@ import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
 import styled from 'styled-components'
 
-const Button = styled.button`
-  /* Adapt the colors based on primary prop */
-  background: ${props => props.primary ? "palevioletred" : "white"};
-  color: ${props => props.primary ? "white" : "palevioletred"};
-
-  font-size: 1em;
-  margin:0 auto;
-  padding: 0.25em 1em;
-  border: 2px solid palevioletred;
-  border-radius: 3px;
-`;
-
 const Index = ({ data }) => {
   const posts = data.allContentfulPost.edges
 
@@ -29,33 +17,6 @@ const Index = ({ data }) => {
           Finding Founding<a href="https://axion.zone/looking-for-founding-member/"> Members</a>
            / 創業メンバー<a href="https://axion.zone/founding-members-japanese/">募集中</a>
         </PageTitle>
-        <Button
-          href="https://twitter.com/taxiyoshida?ref_src=twsrc%5Etfw"
-          target="_blank"
-          rel="noopener"
-          primary
-        >
-          Twitter
-        </Button>
-        
-        <Button
-          href="https://www.facebook.com/taxi.yoshida"
-          target="_blank"
-          rel="noopener"
-          primary
-        >
-          Facebook
-        </Button>
-        
-        <Button
-          href="https://taxiyoshida.net/"
-          target="_blank"
-          rel="noopener"
-          primary
-        >
-        Website
-        </Button>
-
         <CardList>
           {posts.map(({ node: post }) => (
             <Card
