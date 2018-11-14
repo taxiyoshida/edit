@@ -13,16 +13,7 @@ const Index = ({ data }) => {
       <SEO />
       <Container>
         <PageTitle small>
-          New axion.zone alpha
-          <span>🎉</span>
-          ・&nbsp;
-           <a
-            href="https://axion.blog/"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           Former site
-          </a>
+          Finding Fonding Members / 創業メンバー募集中
         </PageTitle>
         <CardList>
           {posts.map(({ node: post }) => (
