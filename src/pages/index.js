@@ -6,25 +6,17 @@ import PageTitle from '../components/PageTitle'
 import SEO from '../components/SEO'
 import styled from 'styled-components'
 
-const Button = styled.a`
-  /* This renders the buttons above... Edit me! */
-  display: inline-block;
+const Button = styled.button`
+  /* Adapt the colors based on primary prop */
+  background: ${props => props.primary ? "palevioletred" : "white"};
+  color: ${props => props.primary ? "white" : "palevioletred"};
+
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
   border-radius: 3px;
-  padding: 0.5rem 0;
-  margin: 0.5rem 1rem;
-  width: 11rem;
-  background: transparent;
-  color: white;
-  border: 2px solid white;
-
-  /* The GitHub button is a primary button
-   * edit this to target it specifically! */
-  ${props => props.primary && css`
-    background: white;
-    color: palevioletred;
-  `}
-`
-
+`;
 
 const Index = ({ data }) => {
   const posts = data.allContentfulPost.edges
