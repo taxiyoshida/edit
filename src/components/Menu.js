@@ -45,6 +45,9 @@ const activeLinkStyle = {
   color: 'white',
 }
 
+const Img = styled.div`
+`;
+
 const Menu = () => {
   return (
     <Header>
@@ -55,7 +58,8 @@ const Menu = () => {
               Home
             </Link>
           </li>
-            <img src="/static/logos/logo-512.png" alt="axion"></img>
+            <div></div>
+            <img src="/static/logos/logo-512.png" alt="axion" height="42" width="42"></img>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About

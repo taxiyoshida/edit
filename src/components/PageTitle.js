@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Title = styled.h2`
+const Title = styled.h1`
   font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: ${props => (props.small ? '1.5em' : '2em')};
   text-transform: capitalize;
   font-weight: 600;
   text-align: center;
-  margin: 0 0 3rem 0;
+  margin: 0 0 1rem 1rem;
   margin: ${props => (props.small ? '1rem 0 1rem 0' : '0 0 1rem 0')};
   line-height: 1.2;
   span {
