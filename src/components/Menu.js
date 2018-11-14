@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Header = styled.header`
-  background: linear-gradient(#e66465, #9198e5);
+  background: #000000;
   width: 100%;
   padding: 1.5em 0;
 `
@@ -55,7 +55,7 @@ const Menu = () => {
               Home
             </Link>
           </li>
-          <img src="/static/logos/logo_header.png" alt="axion" height="42" width="42"></img>
+          <img src="/static/logos/logo-512.png" alt="axion" height="42" width="42"></img>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About
