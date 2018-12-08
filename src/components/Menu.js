@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import logo from '../../static/logos/logo_header.png';
+import logo from '../../static/logos/logo-512.png';
 
 const Header = styled.header`
   background: #000000;
@@ -41,7 +41,6 @@ const Nav = styled.nav`
     }
   }
 `
-
 const activeLinkStyle = {
   color: 'white',
 }
@@ -69,7 +68,7 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-        <img src={logo} alt="Logo" align="middle" />
+        <img src={logo} alt="Logo" align="middle" height="40" width="100" />
       </Nav>
     </Header>
   )
