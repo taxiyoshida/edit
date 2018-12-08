@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import logo from './static/logos/logo_header.png';
+import logo from '../../static/logos/logo_header.png';
 
 const Header = styled.header`
   background: #000000;
