@@ -45,10 +45,6 @@ const Date = styled.h3`
   color: gray;
 `
 
-const Excerpt = styled.p`
-  margin: 0 1rem 1rem 1rem;
-  line-height: 1.6;
-`
 
 const Card = props => {
   return (

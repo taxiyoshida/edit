@@ -3,7 +3,7 @@ module.exports = {
   siteTitleAlt: 'Knowledge for Progressive Humanity', // This allows an alternative site title for SEO schema.
   publisher: 'Takushi Yoshida', // Organization name used for SEO schema
   siteDescription:
-    'Business news analysis, mainly on tech economy',
+    'Business news analysis on tech economy',
   siteUrl: 'https://axion.zone/', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   author: 'Takushi Yoshida', // Author for RSS author segment and SEO schema
   authorUrl: 'https://taxiyoshida.net/', // URL used for author and publisher schema, can be a social profile or other personal site
@@ -15,5 +15,5 @@ module.exports = {
   siteLogo: '/logos/logo-512.png', // Logo used for SEO, RSS, and App manifest
   backgroundColor: '#e9e9e9', // Used for Offline Manifest
   themeColor: '#121212', // Used for Offline Manifest
-  copyright: 'Copyright © 2018 Takushi Yoshida/axion.zone', // Copyright string for the RSS feed
+  copyright: 'Copyright © 2018 Takushi Yoshida / axion.zone', // Copyright string for the RSS feed
 }
