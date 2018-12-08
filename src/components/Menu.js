@@ -72,26 +72,24 @@ const Menu = () => {
   return (
     <Header>
       <Nav>
+        <Item>
+        <a
+          href="https://www.axion.zone/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="/static/logos/logo_header.png"
+            style={{ width: '100px' }}
+          />
+        </a>  
+        </Item>
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
               Home
             </Link>
           </li>
-        </ul>
-        <Item>
-      <a
-          href="https://www.axion.zone/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="/src/logo_header.png"
-            style={{ width: '100px' }}
-          />
-        </a>  
-        </Item>
-        <ul>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About
