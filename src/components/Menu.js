@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import logo from './static/logos/logo_header.png';
 
 const Header = styled.header`
   background: #000000;
@@ -45,6 +46,8 @@ const activeLinkStyle = {
   color: 'white',
 }
 
+console.log(logo);
+
 const Menu = () => {
   return (
     <Header>
@@ -66,19 +69,9 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-        <a
-          href="https://www.axion.zone/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="/static/logos/logo_header.png"
-            style={{ width: '100px' }}
-          />
-        </a> 
+        <img src={logo} alt="Logo" align="middle" />
       </Nav>
     </Header>
-    
   )
 }
 
