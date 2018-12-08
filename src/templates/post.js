@@ -66,10 +66,10 @@ export const query = graphql`
       }
       heroImage {
         title
-        sizes(maxWidth: 1800) {
-          ...GatsbyContentfulFluid_tracedSVG
+        sizes(maxWidth: 1024) {
+          ...GatsbyContentfulSizes_withWebp_noBase64
         }
-        ogimg: resize(width: 1800) {
+        ogimg: resize(width: 1024) {
           src
           width
           height

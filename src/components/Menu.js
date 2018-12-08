@@ -48,6 +48,26 @@ const activeLinkStyle = {
 const Img = styled.div`
 `;
 
+const Item = styled.li`
+  display: inline-block;
+  padding: 0.25em 0;
+  width: 100%;
+  @media screen and (min-width: ${props => props.theme.responsive.small}) {
+    width: auto;
+  }
+  a {
+    font-weight: 600;
+    transition: all 0.2s;
+    color: ${props => props.theme.colors.base};
+    &:hover {
+      color: ${props => props.theme.colors.highlight};
+    }
+    &:visited {
+      color: ${props => props.theme.colors.base};
+    }
+  }
+`
+
 const Menu = () => {
   return (
     <Header>
@@ -58,6 +78,20 @@ const Menu = () => {
               Home
             </Link>
           </li>
+        </ul>
+        <Item>
+      <a
+          href="https://www.axion.zone/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="/src/logo_header.png"
+            style={{ width: '100px' }}
+          />
+        </a>  
+        </Item>
+        <ul>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
               About
