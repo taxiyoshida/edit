@@ -45,15 +45,16 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Img = styled.div`
-`;
-
 const Item = styled.li`
   display: inline-block;
   padding: 0.25em 0;
   width: 100%;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
     width: auto;
+    position: relative;
+    margin: 0;
+    flex-basis: 100%;
+    }
   }
   a {
     font-weight: 600;
@@ -72,18 +73,6 @@ const Menu = () => {
   return (
     <Header>
       <Nav>
-        <Item>
-        <a
-          href="https://www.axion.zone/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="/static/logos/logo_header.png"
-            style={{ width: '100px' }}
-          />
-        </a>  
-        </Item>
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
@@ -101,10 +90,19 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-        <div>
-            <Img src="/static/logos/logo_header.png" alt="axion"></Img>
-        </div>
       </Nav>
+      <Item>
+        <a
+          href="https://www.axion.zone/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="/static/logos/logo_header.png"
+            style={{ width: '100px' }}
+          />
+        </a>  
+        </Item>
     </Header>
     
   )
