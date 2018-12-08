@@ -45,30 +45,6 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Item = styled.li`
-  display: inline-block;
-  padding: 0.25em 0;
-  width: 100%;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
-    width: auto;
-    position: relative;
-    margin: 0;
-    flex-basis: 100%;
-    }
-  }
-  a {
-    font-weight: 600;
-    transition: all 0.2s;
-    color: ${props => props.theme.colors.base};
-    &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
-    &:visited {
-      color: ${props => props.theme.colors.base};
-    }
-  }
-`
-
 const Menu = () => {
   return (
     <Header>
@@ -90,8 +66,6 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-      </Nav>
-      <Item>
         <a
           href="https://www.axion.zone/"
           rel="nofollow noopener noreferrer"
@@ -101,8 +75,8 @@ const Menu = () => {
             src="/static/logos/logo_header.png"
             style={{ width: '100px' }}
           />
-        </a>  
-        </Item>
+        </a> 
+      </Nav>
     </Header>
     
   )
